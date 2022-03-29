@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bus Owner App</title>
+    <link rel="stylesheet" href="../css/tailwind.css" />
+</head>
+
+<body class="bg-[#F7F7F7] h-screen">
+    <nav
+        class="lg:h-[140px] h-[64px] hidden  lg:flex justify-between items-center lg:w-full bg-primary px-4 lg:px-[120px]">
+        <a href="../index.html">
+            <img src="../dist/assets/components/logo/new-logo.svg" class="lg:h-[48px] h-[32px]" alt="" />
+        </a>
+        <a href=""> <img src="../dist/assets/components/icons/icon.svg"
+                class="lg:h-[40px] lg:w-[40px] h-[30px] w-[30px]" alt="" /></a>
+    </nav>
+    <!-- phone nav -->
+    <nav class="h-[124px] w-full lg:hidden  flex justify-between items-center lg:w-full bg-primary px-4 lg:px-[120px]">
+        <div class="flex flex-col gap-y-[20px]">
+            <a href="../index.html"> <img src="../dist/assets/components/icons/left_arrow_white.svg" alt=""
+                    class="h-4 w-4"></a>
+            <p class="font-inter text-[500] text-2xl mb-4 text-white">Profile</p>
+        </div>
+    </nav>
+
+
+    <div class=" flex justify-center">
+        <div class="lg:px-[400px] mt-[24px]">
+                    <div class="hidden lg:flex lg:flex-col lg:gap-y-[20px]">
+            <img src="../dist/assets/components/icons/arrow_left.svg" alt="" class="h-4 w-4">
+            <p class="font-inter text-[500] text-2xl">Profile</p>
+        </div>
+        <div class="hidden lg:block w-[640px] h-[1px] bg-[#D9DCDF] bg-opacity-70">
+
+        </div>
+
+        <div class="mt-5 flex flex-wrap justify-center lg:justify-start gap-x-4">
+            <div
+                class="bg-[#FFFFFF]  w-[380px] h-[196px] lg:w-[300px] lg:h-[196px] rounded-[14px] flex flex-col justify-center items-center">
+                <img src="../dist/assets/components/icons/car.svg" alt="" class="h-[80px]">
+                <p class=" text-[#151414] font-inter text-[500] text-2xl mt-[14px]">Sajedul Haque</p>
+                <p class="text-[#979797] text-[14px]">+8801701164585</p>
+            </div>
+
+
+            <!-- form -->
+            <form class="flex mt-[14px] lg:mt-0 flex-col gap-y-[14px]">
+                <div class="w-[380px] lg:w-[324px] h-[60px] bg-[#FFFFFF] rounded-lg">
+                    <div class="flex gap-x-[16px] justify-start items-center p-2">
+                        <img src="../dist/assets/components/icons/email.svg" class="h-[34px]" alt="">
+                        <div>
+                            <label class=" text-[#747476] text-[10px]">
+                                Email
+                            </label>
+                            <input
+                                class="rounded w-full focus:outline-none focus:shadow-outline placeholder-[#151414] font-medium font-inter text-[14px]"
+                                id="username" type="text" placeholder="sajedul@gmail.com">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[380px] lg:w-[324px] h-[60px] bg-[#FFFFFF] rounded-lg">
+                    <div class="flex justify-between items-center p-2">
+                        <div class="flex gap-x-[16px] justify-start items-center">
+                            <img src="../dist/assets/components/icons/password.svg" class="h-[34px]" alt="">
+                            <div>
+                                <label class=" text-[#747476] text-[10px]">
+                                    Password
+                                </label>
+                                <input
+                                    class="rounded w-full focus:outline-none focus:shadow-outline placeholder-[#151414] font-medium font-inter text-[14px]"
+                                    id="username" type="text" placeholder="***********">
+                            </div>
+                            <a href="" class="text-[#1E88E5] text-[14px] pr-2 underline uppercase"> Change</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <!-- button for large device -->
+                <button
+                    class="w-[324px] hidden lg:block h-[46px] border border-[#E0293B] rounded-full uppercase text-primary">
+                    LOG Out
+                </button>
+                <!-- button for small device -->
+                <button class="w-full lg:hidden h-[60px] border  uppercase text-primary absolute bottom-20 left-0">
+                    LOG Out
+                </button>
+
+            </form>
+        </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
