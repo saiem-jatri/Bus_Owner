@@ -16,6 +16,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("daisyui",'flowbite/plugin')],
-  
+  plugins: [require("daisyui")],
 };
