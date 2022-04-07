@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bus Owner App</title>
+    <link rel="stylesheet" href="../css/tailwind.css" />
+</head>
+
+<body class="bg-[#F7F7F7] h-screen">
+    <nav
+        class="md:h-[140px] h-[64px] hidden  md:flex justify-between items-center md:w-full bg-primary px-4 md:px-[120px]">
+        <a href="../index.html">
+            <img src="../dist/assets/components/logo/new-logo.svg" class="md:h-[48px] h-[32px]" alt="" />
+        </a>
+        <a href="../profile/profile.html"> <img src="../dist/assets/components/icons/icon.svg"
+                class="md:h-[40px] md:w-[40px] h-[30px] w-[30px]" alt="" /></a>
+    </nav>
+    <!-- phone nav -->
+    <nav class="h-[124px] w-full md:hidden  flex justify-between items-center md:w-full bg-primary px-4 md:px-[120px]">
+        <div class="flex flex-col gap-y-[5px]">
+            <a href="../index.html"> <img src="../dist/assets/components/icons/left_arrow_white.svg" alt=""
+                    class="h-4 w-4"></a>
+            <p class="font-inter text-[500] text-2xl text-white">Summary</p>
+            <p class="font-inter text-[16px] text-white">3 Active company</p>
+        </div>
+    </nav>
+
+
+    <div class="flex justify-center">
+        <div class="md:px-[400px] mt-[24px]">
+            <div class="hidden md:flex md:flex-col md:gap-y-[10px]">
+                <a href="../index.html">
+                    <img src="../dist/assets/components/icons/arrow_left.svg" alt="" class="h-4 w-4">
+                </a>
+                
+                <p class="font-inter text-[500] text-[#676769] text-2xl">Summary</p>
+                <small class="text-[16px] text-[#676769]" >4 Company Found</small>
+            </div>
+            <div class="hidden md:block w-[640px] h-[1px] bg-[#D9DCDF] bg-opacity-70 mt-5">
+
+            </div>
+
+            
+                <div class="flex justify-between items center mt-5">
+                    <fieldset class="w-[240px] border border-gray-400">
+                        <legend class="text-[10px] p-1 text-[#808083]">Date</legend>
+                        <input type="text" class="border-none w-full focus:outline-none text-[16px] pl-1 bg-transparent placeholder:text-[#151414]"
+                          placeholder="31-01-2022 12:00">
+                      </fieldset>
+
+                      <button
+                      class="cursor-pointer md:bg-primary md:border-primary flex justify-center items-center mt-3 w-[100px] h-[40px]  md:w-[133px] md:h-[56px]">
+                      <img src="../dist/assets/components/icons/white_filter.svg" class="h-4 hidden md:block" alt="">
+                      <img src="../dist/assets/components/icons/filter.svg" class="h-4 md:hidden" alt="">
+                      <span class="md:text-white text-black ml-2">Filter</span>
+                    </button>
+
+                </div>
+                <div class="hidden md:block w-[640px] h-[1px] bg-[#D9DCDF] bg-opacity-70 mt-5">
+
+                </div>
+                <div class="mt-5 bg-[#FFFFFF] p-2 leading-10 divide-y">
+                    <div class="flex justify-between items-center p-2">
+                        <p class="text-sm text-[#151414] font-medium">Total Bus</p>
+                        <p class="text-sm text-[#151414] font-medium">12</p>
+                    </div>
+
+                    <div class="flex justify-between items-center p-2">
+                        <p class="text-sm text-[#151414] font-medium">Total Ticket</p>
+                        <p class="text-sm text-[#151414] font-medium">1737</p>
+                    </div>
+                    <div class="flex justify-between items-center p-2">
+                        <p class="text-sm text-[#151414] font-medium">Total Amount</p>
+                        <p class="text-sm text-[#151414] font-medium">5,79,326</p>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
