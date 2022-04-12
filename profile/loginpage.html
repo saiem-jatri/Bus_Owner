@@ -15,8 +15,6 @@
         <a href="../index.html">
             <img src="../assets/components/logo/new-logo.svg" class="md:h-[48px] h-[32px]" alt="" />
         </a>
-        <a href=""> <img src="../assets/components/icons/icon.svg"
-                class="md:h-[40px] md:w-[40px] h-[30px] w-[30px]" alt="" /></a>
     </nav>
     <!-- phone nav -->
     <nav class="h-[124px] w-full md:hidden flex justify-between items-center md:w-full bg-primary px-4 md:px-[120px]">
@@ -30,18 +28,13 @@
 
     <div class=" flex justify-center">
         <div class="md:px-[400px] mt-[24px]">
-                    <div class="hidden md:flex md:flex-col md:gap-y-[20px]">
-            <img src="../assets/components/icons/arrow_left.svg" alt="" class="h-4 w-4">
-            <p class="font-inter text-[500] text-2xl">Login</p>
-        </div>
-        <div class="hidden md:block w-[640px] h-[1px] bg-[#D9DCDF] bg-opacity-70">
-
-        </div>
+  
 
         <div class="mt-5 flex flex-wrap justify-center md:justify-center gap-x-4">
             <!-- form -->
-            <form class="flex mt-[14px] md:mt-0 flex-col gap-y-[14px]">
-                <div class="w-[380px] md:w-[324px] h-[60px] bg-[#FFFFFF] rounded-lg">
+            <form class="flex mt-[14px] md:mt-0 flex-col gap-y-[10px] bg-white md:p-4">
+                <h2 class="text-primary text-[20px] font-medium text-center">Login</h2>
+                <div class="w-[370px] md:w-[400px] h-[60px] bg-[#FFFFFF] rounded-lg">
                     <div class="flex gap-x-[16px] justify-start items-center p-2">
                         <img src="../assets/components/icons/email.svg" class="h-[34px]" alt="">
                         <div>
@@ -55,7 +48,7 @@
                     </div>
                 </div>
 
-                <div class="w-[380px] md:w-[324px] h-[60px] bg-[#FFFFFF] rounded-lg">
+                <div class="w-[370px] md:w-[400px] h-[60px] bg-[#FFFFFF] rounded-lg">
                     <div class="flex justify-between items-center p-2">
                         <div class="flex gap-x-[16px] justify-start items-center">
                             <img src="../assets/components/icons/password.svg" class="h-[34px]" alt="">
@@ -71,18 +64,15 @@
                         </div>
                     </div>
                 </div>
-                <div>
-
-                </div>
                 <!-- button for large device -->
                 <button
-                    class="w-[324px] hidden md:block h-[46px] border border-[#E0293B] rounded-full uppercase text-primary">
+                    class="w-[224px] ml-auto h-[40px] border border-[#E0293B] rounded-full uppercase text-primary">
                     Login
                 </button>
                 <!-- button for small device -->
-                <button class="w-full md:hidden h-[60px] border  uppercase text-primary absolute bottom-20 left-0">
+                <!-- <button class="w-full md:hidden h-[60px] border  uppercase text-primary absolute bottom-20 left-0">
                     Login
-                </button>
+                </button> -->
 
             </form>
         </div>
