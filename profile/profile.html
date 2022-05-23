@@ -29,7 +29,7 @@
 
 
     <div class=" flex justify-center">
-        <div class="md:px-[400px] mt-[24px]">
+        <div class="md:px-[400px] mt-[24px] md:bg-primary md:bg-opacity-10 py-2">
                     <div class="hidden md:flex md:flex-col md:gap-y-[20px]">
             <img src="../assets/components/icons/arrow_left.svg" alt="" class="h-4 w-4">
             <p class="font-inter text-[500] text-2xl">Profile</p>
@@ -38,71 +38,67 @@
 
         </div>
 
-        <div class="mt-5 flex flex-wrap justify-center md:justify-start gap-x-4">
-            <div
-                class="bg-[#FFFFFF]  w-[380px] h-[196px] md:w-[300px] md:h-[196px] rounded-[14px] flex flex-col justify-center items-center">
+            <div class="mt-5 flex flex-wrap justify-between items-center md:justify-start md:gap-x-4">
+              <div
+                class="bg-[#FFFFFF] mx-auto w-11/12 h-[196px] md:w-[300px] md:h-[196px] rounded-[14px] flex flex-col justify-center items-center shadow-md">
                 <img src="../assets/components/icons/car.svg" alt="" class="h-[80px]">
                 <p class=" text-[#151414] font-inter text-[500] text-2xl mt-[14px]">Sajedul Haque</p>
                 <p class="text-[#979797] text-[14px]">+8801701164585</p>
+              </div>
+              <div class="w-full md:w-[300px] mt-5 md:mt-0">
+                <form class="bg-white shadow-md rounded-[14px] px-8 pt-6 pb-8 mb-4">
+                  <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                      Password
+                    </label>
+                    <input
+                      class="shadow appearance-none rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                      id="password" type="password" placeholder="******************">
+                
+                  </div>
+                  <div class="mb-6">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                     New Password
+                    </label>
+                    <input
+                      class="shadow appearance-none rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                      id="password" type="password" placeholder="******************">
+                      <p class="text-red-500 text-xs italic">Please choose a password.</p>
+                  </div>
+                  <div class="flex items-center justify-end">
+        
+                    <button
+                    class="bg-[#f04935] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    type="button">
+                    Reset Password
+                  </button>
+                  </div>
+
+                </form>
+        
+
+        
             </div>
-
-
-            <!-- form -->
-            <form class="flex mt-[14px] md:mt-0 flex-col gap-y-[14px]">
-                <div class="w-[380px] md:w-[324px] h-[60px] bg-[#FFFFFF] rounded-lg">
-                    <div class="flex gap-x-[16px] justify-start items-center p-2">
-                        <img src="../assets/components/icons/email.svg" class="h-[34px]" alt="">
-                        <div>
-                            <label class=" text-[#747476] text-[10px]">
-                                Email
-                            </label>
-                            <input
-                                class="rounded w-full focus:outline-none focus:shadow-outline placeholder-[#151414] font-medium font-inter text-[14px]"
-                                id="username" type="text" placeholder="sajedul@gmail.com">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w-[380px] md:w-[324px] h-[60px] bg-[#FFFFFF] rounded-lg">
-                    <div class="flex justify-between items-center p-2">
-                        <div class="flex gap-x-[16px] justify-start items-center">
-                            <img src="../assets/components/icons/password.svg" class="h-[34px]" alt="">
-                            <div>
-                                <label class=" text-[#747476] text-[10px]">
-                                    Password
-                                </label>
-                                <input
-                                    class="rounded w-full focus:outline-none focus:shadow-outline placeholder-[#151414] font-medium font-inter text-[14px]"
-                                    id="username" type="text" placeholder="***********">
-                            </div>
-                            <a href="" class="text-[#1E88E5] text-[14px] pr-2 underline uppercase"> Change</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-
-                </div>
-                <!-- button for large device -->
-                <button
-                    class="w-[324px] hidden md:block h-[46px] border border-[#E0293B] rounded-full uppercase text-primary">
-                    LOG Out
-                </button>
-                <!-- button for small device -->
-                <button class="w-full md:hidden h-[60px] border  uppercase text-primary absolute bottom-20 left-0">
-                    LOG Out
-                </button>
-
-            </form>
-        </div>
-        </div>
+          </div>
+  <div class="flex w-full justify-center items-center pb-5">
+    <button
+    class="w-[324px] hidden md:block h-[46px] border border-[#E0293B] rounded-full uppercase text-primary">
+    LOG Out
+    </button>
+    <button class="w-full md:hidden h-[60px] border bg-primary uppercase text-white">
+        LOG Out
+    </button>
+  </div>
+</div>
 
 
     </div>
 
 
+<!-- button for small device -->
+<!-- 
 
-
-
+ -->
 
 </body>
 
